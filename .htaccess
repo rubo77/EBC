@@ -1,0 +1,26 @@
+<Files "intern_*.html">
+AuthType Basic
+AuthName "Login"
+AuthUserFile "/mnt/rid/62/53/5266253/htdocs/EBC/.htpasswd"
+Require user Mitsingende
+</Files>
+<Files "intern.html">
+AuthType Basic
+AuthName "Login"
+AuthUserFile "/mnt/rid/62/53/5266253/htdocs/EBC/.htpasswd"
+Require user Mitsingende
+</Files>
+RedirectMatch 301 (.*)/pageID_14942980.html $1/index.html
+RedirectMatch 301 (.*)/pageID_15044595.html $1/ueber-uns.html
+RedirectMatch 301 (.*)/pageID_14942982.html $1/mitsingen.html
+RedirectMatch 301 (.*)/pageID_14942985.html $1/hoerproben.html
+RedirectMatch 301 (.*)/pageID_14942984.html $1/konzerte.html
+RedirectMatch 301 (.*)/pageID_14943107.html $1/kontakt.html
+RedirectMatch 301 (.*)/pageID_14942986.html $1/archiv.html
+RedirectMatch 301 (.*)/pageID_14942987.html $1/links.html
+RedirectMatch 301 (.*)/pageID_14942988.html $1/impressum.html
+RedirectMatch 301 (.*)/pageID_15044522.html $1/intern.html
+RedirectMatch 301 (.*)/pageID_15044523.html $1/fotos-von-uns-und-so.html
+RedirectMatch 301 (.*)/pageID_15044524.html $1/zu-den-liedern.html
+RedirectMatch 301 (.*)/pageID_15014051.html $1/forum.html
+RedirectMatch 301 (.*)/pageID_15375326.html $1/noten.html
