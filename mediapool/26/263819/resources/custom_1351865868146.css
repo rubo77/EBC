@@ -45,7 +45,19 @@ color: #0000ff;
     color: #0000ff;
     text-decoration: none;
 }
-#body a:hover, #body a.pager:hover {
+#body a:hover, #body a.pager:hover, #body a.nav:hover  {
     text-decoration: underline;
+}
+#body span.nav, #body a.nav, #body a.nav:visited {
+  color:white;
+  padding:5px;
+  padding-left: 10px;
+  display:block;
+  text-decoration: none;
+  width:130px;
+  border-radius: 10px;
+}
+#body span.nav, #body a.nav:hover{
+  background-color: #5d8786;
 }
 object.videoObject {display: none;}*+html object.videoObject {display: block;}* html object.videoObject {display: block;}embed.videoEmbed {display: block;}*+html embed.videoEmbed {display: none;}* html embed.videoEmbed {display: none;}
