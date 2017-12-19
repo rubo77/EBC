@@ -3,5 +3,5 @@
 # standalone version style.css
 header("Content-type: text/css", true);
 # */
-$css=file("style.css")
+$css=file("style.css");
 echo implode($css);
